@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
+import React from "react";
+import Navbar from "./componentes/Navbar";
+import Hero from "./componentes/hero";
+import CreditCard from "./componentes/CreditCard";
+import CardList from "./componentes/CardList";
+import CenteredButton from "./componentes/CenteredButton";
+import Institutional from "./componentes/Institutional";
+import "./views/App.scss";
+import posts from "./data/Posts";
+const App = () => (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Hero />
+
+      <CreditCard/>
+      <CardList posts={posts} />
+      <CenteredButton>Abra sua conta</CenteredButton>
+
+      <Institutional/>
     </div>
   );
-}
 
 export default App;
