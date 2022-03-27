@@ -1,9 +1,9 @@
 import React from "react";
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import App from './views/App';
 
 test("renders magbank header", () => {
-  render(<App />);
+  render(<App/>);
   const el = screen.getByText(/magbank/i);
   expect(el).toBeInTheDocument();
 });

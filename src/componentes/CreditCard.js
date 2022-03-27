@@ -23,7 +23,7 @@ const CreditCard = () => (
                     <Col xs={12} lg={6} className="mb-4">
                         <IconText
                         icon={faCreditCard}
-                        size={2}
+                        size={3}
                         color="#f05656"
                         textClassName="h5 text-muted">
                             Crédito Pessoal
@@ -33,7 +33,7 @@ const CreditCard = () => (
                     <Col xs={12} lg={6} className="mb-4">
                     <IconText
                         icon={faMobile}
-                        size={2}
+                        size={3}
                         color="#f05656"
                         textClassName="h5 text-muted">
                             App
@@ -43,7 +43,7 @@ const CreditCard = () => (
                     <Col xs={12} lg={6} className="mb-4">
                     <IconText
                         icon={faShoppingCart}
-                        size={2}
+                        size={3}
                         color="#f05656"
                         textClassName="h5 text-muted">
                            Pagamentos Online
@@ -54,7 +54,7 @@ const CreditCard = () => (
             <Col xs={12} lg={6} className="mb-4">
             <IconText
                         icon={faWallet}
-                        size={2}
+                        size={3}
                         color="#f05656"
                         textClassName="h5 text-muted">
                            Pagamneto Digital
@@ -66,6 +66,7 @@ const CreditCard = () => (
                 <Col xs={12} lg={5}>
                     <Image src={creditCard} alt="Magbank Credit Card Example" fluid/>
                 </Col>
+                <FontAwesomeIcon></FontAwesomeIcon>
                 </Row>
     </Container>
 );
