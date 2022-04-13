@@ -27,5 +27,30 @@ const  posts = [
         action: "peça já",
     },
 
+    {
+        id: 4,
+        image: image1,
+        title: "faça o seu cartão light",
+        excerpt: "o cartão light é ideal prar você que pretende ter um crédito facil",
+        action: "peça já",
+    },
+
+    {
+        id: 5,
+        image: image2,
+        title: "faça o seu cartão premio",
+        excerpt: "o cartão light é ideal prar você que pretende ter um crédito dobrado e sem restrições.",
+        action: "peça já",
+    },
+
+    {
+        id: 6,
+        image: image3,
+        title: "faça o seu cartão ouro",
+        excerpt: "o cartão light é ideal prar você que pretende ter um crédito sem limites",
+        action: "peça já",
+    },
+
+
 ]
     export default  posts;
